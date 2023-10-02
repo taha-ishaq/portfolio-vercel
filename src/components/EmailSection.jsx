@@ -42,7 +42,7 @@ const EmailSection = () => {
         </div>
         </div>
         <div>
-            <form ref={form} className='flex flex-col' onSubmit={sendEmail}>
+              <form ref={form} className='flex flex-col' onSubmit={sendEmail}>
                 <div className='mb-6'>
                 <label  className='text-white block mb-2  text-sm font-medium '>Your Email</label>
                 <input type="email" name='user_email' className='bg-[#18191E] border border-[#33353F] placeholde-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5' required placeholder='Taha@gmail.com' /> 
@@ -60,12 +60,10 @@ const EmailSection = () => {
                
             </form>
             {emailSubmitted && <p className='text-green-500 text-sm mt-2'>Email sent</p>}
-                    )
-                }
-            </form>
         </div>
     </section>
   )
-}
+            }
 
 export default EmailSection
+          
