@@ -43,11 +43,11 @@ const EmailSection = () => {
             {" "}I'm currently Looking for new opportunities , my inbox is always open , whether you have a question  or just  want to say hi , i'll try my best  to get back to you!
         </p>
         <div  className='socials flex flex-row gap-2'>
-            <Link href="github.com">
+            <Link href="https://github.com/taha-ishaq">
                 <Image src={GithubIcon} alt='Github Icon' />
             </Link>
             
-            <Link href="linkedin.com">
+            <Link href="https://www.linkedin.com/in/taha-ishaq-18048528a/">
                 <Image src={LinkedinIcon} alt='linkedin Icon' />
             </Link>
         </div>
